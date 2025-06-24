@@ -4,7 +4,7 @@ module control (clock, hwy, cntry, X, clear);
     parameter TRUE=1'b1, FALSE=1'b0;
 
   // State Definition       HWY     CNTRY    
-    parameter S0=3'd0; // GREEN     RED
+    parameter S0=3'd0; // GREEN     RED.
     parameter S1=3'd1; // YELLOW    RED
     parameter S2=3'd2; //  RED      RED
     parameter S3=3'd3; //  RED      GREEN
